@@ -3,21 +3,69 @@ url: https://raw.githubusercontent.com/api-evangelist/codeium/refs/heads/main/ap
 name: Codeium
 x-type: company
 description: >-
-  Codeium provides AI-powered code completion, search, and chat across IDEs. Home of the Windsurf editor (an AI-native VS Code alternative). Enterprise self-host and SaaS plans available.
+  Codeium has been rebranded as Windsurf. The codeium.com URL now redirects to windsurf.com.
+  The legacy Codeium product offered AI-powered code completion, search, and chat across
+  IDEs (VS Code, JetBrains, Vim, Emacs, etc.). Codeium for Enterprise lives on as the
+  enterprise / self-host SKU within Windsurf, alongside the Windsurf Editor and Plugins.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - AI
   - Developer Tools
   - Code Completion
-  - Windsurf
   - IDE
+  - Windsurf
+  - Rebranded
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: codeium:plugins
+    name: Codeium / Windsurf Plugins
+    description: >-
+      IDE plugins (VS Code, JetBrains, Vim, Emacs, Visual Studio, Sublime Text, etc.)
+      surfacing autocomplete, chat, command, and Cascade-style agent edits backed by
+      Codeium / Windsurf inference. There is no public REST API for end-developers; the
+      plugins call into Codeium's hosted inference over a proprietary protocol.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://windsurf.com/plugins
+    baseURL: https://windsurf.com
+    tags:
+      - Plugins
+      - IDE
+      - Autocomplete
+      - Chat
+      - Agent
+    properties:
+      - type: ProductPage
+        url: https://windsurf.com/plugins
+      - type: Documentation
+        url: https://docs.windsurf.com/
+      - type: BrandTransition
+        url: 'codeium.com 301 redirects to windsurf.com'
+  - aid: codeium:enterprise
+    name: Codeium for Enterprise (Windsurf Enterprise)
+    description: >-
+      Enterprise / self-hosted SKU with admin dashboards, RBAC, analytics, and SSO. Sold
+      as Windsurf Enterprise; legacy "Codeium for Enterprise" branding still appears in
+      Windsurf navigation.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://windsurf.com/enterprise
+    baseURL: https://windsurf.com
+    tags:
+      - Enterprise
+      - Self-Hosted
+      - SSO
+      - Analytics
+    properties:
+      - type: ProductPage
+        url: https://windsurf.com/enterprise
 common:
   - type: Website
+    url: https://windsurf.com/
+  - type: LegacyWebsite
     url: https://codeium.com/
+  - type: Documentation
+    url: https://docs.windsurf.com/
   - type: Plans
     url: plans/codeium-plans-pricing.yml
   - type: RateLimits
