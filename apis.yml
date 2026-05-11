@@ -72,6 +72,10 @@ common:
     url: rate-limits/codeium-rate-limits.yml
   - type: FinOps
     url: finops/codeium-finops.yml
+  - type: Integrations
+    url: https://windsurf.com/integrations
+integrations:
+  - name: JetBrains Plugin
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
