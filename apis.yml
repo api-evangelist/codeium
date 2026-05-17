@@ -1,7 +1,7 @@
 aid: codeium
 url: https://raw.githubusercontent.com/api-evangelist/codeium/refs/heads/main/apis.yml
 name: Codeium
-x-type: company
+kind: company
 description: >-
   Codeium has been rebranded as Windsurf. The codeium.com URL now redirects to windsurf.com.
   The legacy Codeium product offered AI-powered code completion, search, and chat across
