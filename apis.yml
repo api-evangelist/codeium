@@ -60,6 +60,10 @@ apis:
       - type: ProductPage
         url: https://windsurf.com/enterprise
 common:
+  - type: GitHubOrganization
+    url: https://github.com/Exafunction
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/codeiumdev
   - type: Website
     url: https://windsurf.com/
   - type: LegacyWebsite
