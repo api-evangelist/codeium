@@ -7,7 +7,7 @@ description: >-
   The legacy Codeium product offered AI-powered code completion, search, and chat across
   IDEs (VS Code, JetBrains, Vim, Emacs, etc.). Codeium for Enterprise lives on as the
   enterprise / self-host SKU within Windsurf, alongside the Windsurf Editor and Plugins.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - AI
   - Developer Tools
@@ -26,7 +26,7 @@ apis:
       surfacing autocomplete, chat, command, and Cascade-style agent edits backed by
       Codeium / Windsurf inference. There is no public REST API for end-developers; the
       plugins call into Codeium's hosted inference over a proprietary protocol.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://windsurf.com/plugins
     baseURL: https://windsurf.com
     tags:
@@ -48,7 +48,7 @@ apis:
       Enterprise / self-hosted SKU with admin dashboards, RBAC, analytics, and SSO. Sold
       as Windsurf Enterprise; legacy "Codeium for Enterprise" branding still appears in
       Windsurf navigation.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://windsurf.com/enterprise
     baseURL: https://windsurf.com
     tags:
