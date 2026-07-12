@@ -60,6 +60,10 @@ apis:
       - type: ProductPage
         url: https://windsurf.com/enterprise
 common:
+  - type: VulnerabilityDisclosure
+    url: security/codeium-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/codeium-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Exafunction
   - type: LinkedIn
