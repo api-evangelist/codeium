@@ -7,7 +7,19 @@ description: >-
   The legacy Codeium product offered AI-powered code completion, search, and chat across
   IDEs (VS Code, JetBrains, Vim, Emacs, etc.). Codeium for Enterprise lives on as the
   enterprise / self-host SKU within Windsurf, alongside the Windsurf Editor and Plugins.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codeium.png
 tags:
   - AI
   - Developer Tools
