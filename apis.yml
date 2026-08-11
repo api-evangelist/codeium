@@ -52,8 +52,6 @@ apis:
         url: https://windsurf.com/plugins
       - type: Documentation
         url: https://docs.windsurf.com/
-      - type: BrandTransition
-        url: 'codeium.com 301 redirects to windsurf.com'
   - aid: codeium:enterprise
     name: Codeium for Enterprise (Windsurf Enterprise)
     description: >-
