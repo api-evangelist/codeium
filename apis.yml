@@ -21,6 +21,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codeium.png
 tags:
+  - Artificial Intelligence
+  - Developer Tools
+  - Code Completion
+  - IDE
+  - Windsurf
+  - Rebranded
+tags_raw:
   - AI
   - Developer Tools
   - Code Completion
@@ -42,6 +49,12 @@ apis:
     humanURL: https://windsurf.com/plugins
     baseURL: https://windsurf.com
     tags:
+      - Plugins
+      - IDE
+      - Autocomplete
+      - Chat
+      - Agents
+    tags_raw:
       - Plugins
       - IDE
       - Autocomplete
