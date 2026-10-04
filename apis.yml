@@ -32,6 +32,10 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codeium.png
+x-docs-platform: mintlify
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-09-24
+x-docs-hosting: vercel
 tags:
   - Artificial Intelligence
   - Developer Tools
@@ -59,7 +63,6 @@ apis:
       plugins call into Codeium's hosted inference over a proprietary protocol.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://windsurf.com/plugins
-    baseURL: https://windsurf.com
     tags:
       - Plugins
       - IDE
@@ -85,7 +88,6 @@ apis:
       Windsurf navigation.
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://windsurf.com/enterprise
-    baseURL: https://windsurf.com
     tags:
       - Enterprise
       - Self-Hosted
